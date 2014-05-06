@@ -1,0 +1,138 @@
+.RotisSerifStd-Italic { 
+  font-family: RotisSerifStd-Italic;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 { 
+  font-family: RotisSerifStd-Italic; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400italic;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+}
+
+/* ====== ROWS ======= */
+
+#row1 {
+
+}
+
+#row2 {
+  border-top: 3px solid #ffc72c;
+  border-bottom: 3px solid #ffc72c;
+  background-image: url(../img/bokeh_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*height: 100%;*/
+}
+
+/* ================== */
+
+#edivider {
+  margin-top: 40px;
+  z-index: 999;
+}
+
+
+
+.divider {
+  color: #ffc72c;
+  background-color: #ffc72c;
+  height: 3px;
+}
+
+
+.btn-givenow {
+  background: rgb(243,200,61); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(243,200,61,1) 0%, rgba(243,200,61,1) 50%, rgba(248,212,97,1) 51%, rgba(248,212,97,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,200,61,1)), color-stop(50%,rgba(243,200,61,1)), color-stop(51%,rgba(248,212,97,1)), color-stop(100%,rgba(248,212,97,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(243,200,61,1) 0%,rgba(243,200,61,1) 50%,rgba(248,212,97,1) 51%,rgba(248,212,97,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(243,200,61,1) 0%,rgba(243,200,61,1) 50%,rgba(248,212,97,1) 51%,rgba(248,212,97,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(243,200,61,1) 0%,rgba(243,200,61,1) 50%,rgba(248,212,97,1) 51%,rgba(248,212,97,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(243,200,61,1) 0%,rgba(243,200,61,1) 50%,rgba(248,212,97,1) 51%,rgba(248,212,97,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c83d', endColorstr='#f8d461',GradientType=0 ); /* IE6-9 */
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 0px solid #009900;
+  padding: 5px;
+  width: 275px;
+  height: 50px;
+}
+
+
+/* ====== HELPER CLASSES ======= */
+
+.toppad {
+  padding-top: 25px;
+}
+
+.toppadmore {
+  padding-top: 50px;
+}
+
+.bottompad {
+  padding-bottom: 25px;
+}
+
+.bottompadmore {
+  padding-bottom: 50px;
+}
+
+.topmargin {
+  margin-top: -25px;
+}
+
+.kerning {
+  letter-spacing: 2px;
+}
+
+
+/* ====== BOOTSTRAP OVERRIDES ======= */
+
+.jumbotron {
+  background-image: url(../img/jumbobg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.carousel-control.left {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+}
+.carousel-control.right {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+}
+
+
+
+
