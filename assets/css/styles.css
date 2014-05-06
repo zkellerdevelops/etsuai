@@ -22,12 +22,13 @@ h2 {
 
 h3 {
   font-family: 'Lato', sans-serif;
-  font-weight: 400italic;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 h4 {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h5 {
@@ -42,6 +43,15 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
 }
+
+#contactlink h3 {
+  color: #777;
+  text-decoration: underline;
+}
+#contactlink h3:hover {
+  color: #000;
+}
+
 
 /* ====== ROWS ======= */
 
@@ -58,7 +68,7 @@ p {
   /*height: 100%;*/
 }
 
-#navrow {
+#navstickyrow {
   padding-left: 0;
   padding-right: 0;
   width: 100%;
@@ -70,6 +80,11 @@ p {
   padding: 0px 10px 0px 10px;
   font-size: 1.5em;
   color: #666;
+}
+
+.fpo {
+  height: 75px;
+  background-color: #666;
 }
 
 /* ================== */
@@ -105,6 +120,17 @@ p {
   height: 50px;
 }
 
+#givenow:hover {
+  background: -moz-linear-gradient(top, rgba(248,212,97,1) 0%, rgba(248,212,97,1) 50%, rgba(243,200,61,1) 51%, rgba(243,200,61,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,212,97,1)), color-stop(50%,rgba(248,212,97,1)), color-stop(51%,rgba(243,200,61,1)), color-stop(100%,rgba(243,200,61,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(248,212,97,1) 0%,rgba(248,212,97,1) 50%,rgba(243,200,61,1) 51%,rgba(243,200,61,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(248,212,97,1) 0%,rgba(248,212,97,1) 50%,rgba(243,200,61,1) 51%,rgba(243,200,61,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(248,212,97,1) 0%,rgba(248,212,97,1) 50%,rgba(243,200,61,1) 51%,rgba(243,200,61,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(248,212,97,1) 0%,rgba(248,212,97,1) 50%,rgba(243,200,61,1) 51%,rgba(243,200,61,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c83d', endColorstr='#f8d461',GradientType=0 ); /* IE6-9 */
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
 
 /* ====== HELPER CLASSES ======= */
 
@@ -113,7 +139,7 @@ p {
 }
 
 .toppadmore {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .bottompad {

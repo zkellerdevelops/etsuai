@@ -1,3 +1,3 @@
   $(document).ready(function(){
-    $("#navrow").sticky({topSpacing:0});
+    $("#navstickyrow").sticky({topSpacing:0});
   });
