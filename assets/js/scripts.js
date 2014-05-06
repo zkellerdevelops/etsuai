@@ -1,3 +1,3 @@
-// $( document ).ready(function() {
-//   $('.flexslider').flexslider();
-// });
+  $(document).ready(function(){
+    $("#navrow").sticky({topSpacing:0});
+  });

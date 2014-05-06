@@ -54,6 +54,14 @@ p {
   /*height: 100%;*/
 }
 
+#navrow {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+
 /* ================== */
 
 #edivider {
@@ -122,6 +130,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .carousel-control.left {
@@ -131,6 +140,23 @@ p {
 .carousel-control.right {
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
+}
+
+.navbar {
+  border-top: 3px #ffc72c solid;
+  border-bottom: 3px #ffc72c solid;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-collapse.collapse {
+  text-align: center;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;
 }
 
 
