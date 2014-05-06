@@ -1,3 +1,7 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .RotisSerifStd-Italic { 
   font-family: RotisSerifStd-Italic;
   font-weight: normal;
@@ -60,6 +64,12 @@ p {
   width: 100%;
   background-color: #fff;
   z-index: 999;
+}
+
+#hiddenmenu h1 {
+  padding: 0px 10px 0px 10px;
+  font-size: 1.5em;
+  color: #666;
 }
 
 /* ================== */
@@ -147,10 +157,11 @@ p {
   border-bottom: 3px #ffc72c solid;
   border-radius: 0;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .navbar-collapse.collapse {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .navbar-nav {
